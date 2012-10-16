@@ -2,7 +2,7 @@ auto: true
 server: true
 permalink: none
 paginate: 1
-baseurl: ""
+baseurl: "today-seattle-io"
 exclude:
 - .gitignore
 - README.md
