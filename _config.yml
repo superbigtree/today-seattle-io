@@ -1,0 +1,8 @@
+auto: true
+server: true
+permalink: none
+paginate: 1
+baseurl: ""
+exclude:
+- .gitignore
+- README.md
