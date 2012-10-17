@@ -19,14 +19,14 @@ layout: default
   {% if paginator.previous_page %}
   <p class="previous">
     {% if paginator.previous_page == 1 %}
-    <a href="/">Previous</a>
+    <a href="/">&larr;</a>
     {% else %}
-    <a href="/page{{paginator.previous_page}}">Previous</a>
+    <a href="/page{{paginator.previous_page}}">&larr;</a>
     {% endif %}
   </p>
   {% else %}
   <p class="previous disabled">
-    <span>Previous</span>
+    <span>&larr;</span>
   </p>
   {% endif %}
 
@@ -52,11 +52,11 @@ layout: default
 
   {% if paginator.next_page %}
   <p class="next">
-    <a href="/page{{paginator.next_page}}">Next</a>
+    <a href="/page{{paginator.next_page}}">&rarr;</a>
   </p>
   {% else %}
   <p class="next disabled">
-    <span>Next</span>
+    <span>&rarr;</span>
   </p>
   {% endif %}
 
