@@ -3,7 +3,7 @@ html,body,input,button,select,textarea {
 }
 
 html {
-background-image: url("../img/bg.png");
+  background-image: url("../img/bg.png");
 }
 /* #ECE9DA #FFFAEB*/
 nav.top-bar {
@@ -94,6 +94,23 @@ footer {
   -webkit-box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, .3);
   box-shadow: inset 0px 5px 10px 0px rgba(0, 0, 0, .3);
   margin-top: 100px;
+}
+
+/*
+
+pagination
+
+*/
+#post-pagination {
+  font-size: 18px;
+}
+
+#post-pagination p, #post-pagination ul, #post-pagination li {
+  display: inline-block;
+}
+
+#post-pagination p.disabled, #post-pagination .current-page {
+color: #bababa;
 }
 
 /*
